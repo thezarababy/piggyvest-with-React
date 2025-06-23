@@ -1,0 +1,36 @@
+.arrow{
+    height:30px;
+    margin-left: 20px;
+    
+}
+.section1{
+    background-color:#F2F7F8 ;
+    padding: 60px;
+    display: flex;
+    p{
+        width: 65%;
+        margin-left: 20px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+    h2{
+        color:#122231;
+        margin-left: 20px;
+    }
+    a{
+        color: #122231;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:768px){
+    .section1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p{
+             text-align: center;
+             width: 90%;
+             margin-bottom: 20px;
+        }
+    }
+}
