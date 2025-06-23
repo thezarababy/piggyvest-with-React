@@ -1,7 +1,7 @@
 
 
 .hamburger{
-    height: 50px;
+    height: 40px;
     display: none;
 }
 .main{
@@ -47,4 +47,26 @@ button{
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        margin-left: 300px;
+        
+    }
+    .responsive{
+        display: flex;
+       
+    }
+    .logo{
+        height: 30px;
+    }
 }
